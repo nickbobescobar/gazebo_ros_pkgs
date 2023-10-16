@@ -1,4 +1,10 @@
 # gazebo_ros_pkgs
+----
+Nicolas Escobar 2023-07-11
+`gazebo_plugins/src/gazebo_ros_diff_drive.cpp` Line 354
+Change default `cmd_vel_sub` from "cmd_vel" to "diff_cont/cmd_vel_unstamped"
+Allows for controller switching compatability, overcomes <command_topic> parameter not working
+----
 
 [![Build Status](http://build.ros.org/buildStatus/icon?job=Kpr__gazebo_ros_pkgs__ubuntu_xenial_amd64)](http://build.ros.org/job/Kpr__gazebo_ros_pkgs__ubuntu_xenial_amd64)
 
