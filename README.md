@@ -1,5 +1,8 @@
 # gazebo_ros_pkgs
 ----
+Nicolas Escobar 2023-11-09
+Deleted all packages except `gazebo_plugins` so they continue to build from ROS source.
+
 Nicolas Escobar 2023-07-11
 `gazebo_plugins/src/gazebo_ros_diff_drive.cpp` Line 354
 Change default `cmd_vel_sub` from "cmd_vel" to "diff_cont/cmd_vel_unstamped"

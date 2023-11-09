@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/robot/auto-table_ws/install/teleop_twist_joy/include/**",
+        "/home/robot/auto-table_ws/install/motor_coord_diff/include/**",
+        "/home/robot/auto-table_ws/install/gazebo_plugins/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/robot/auto-table_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/**",
+        "/home/robot/auto-table_ws/src/teleop_twist_joy/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
